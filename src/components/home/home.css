@@ -1,0 +1,52 @@
+.btn {
+    background-color: #D5BDAF;
+    color: white;
+    direction: flex;
+    align-items: center;
+    margin: 5;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+
+#home {
+    height: calc(100vh - 5rem);
+    width: 100vh;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    height: 30rem;
+}
+
+.home-content {
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+    color: darkgray;
+}
+
+.intro-name {
+    color: #D6CCC2;
+}
+
+.intro-p {
+    font-size: medium;
+    font-weight: 100;
+}

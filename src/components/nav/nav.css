@@ -21,4 +21,8 @@
 
 .nav-link {
     margin: 3rem;
+
+    &:hover {
+        color: white;
+    }
 }
