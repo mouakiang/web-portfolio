@@ -1,7 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+
 body {
     background: #F5EBE0;
     color: #D5BDAF;
     overflow: hidden;
     overflow-y: scroll;
+    cursor: url('path-to-image.png'), auto;
 
 }
