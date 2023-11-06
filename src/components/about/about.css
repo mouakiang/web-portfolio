@@ -1,0 +1,61 @@
+#about {
+    overflow: hidden;
+    width: 80%;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-family: Griffy;
+    text-decoration:underline;
+}
+
+.about-info {
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: Cinzel, sans-serif;
+    max-width: 45rem;
+    padding: 0 2rem;
+
+}
+
+.about-bars {
+    margin: 1.25rem;
+    width: 80%;
+    max-width: 90%;
+    text-align: left;
+}
+
+.about-single-bar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+    background: #ecded4;
+}
+
+.about-bar-img {
+    height: 15%;
+    width: 15%;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+.about-bar-text p {
+    font-size: 1rem;
+    font-weight: 200;
+    display: flex;
+}
+
+.head-image {
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
