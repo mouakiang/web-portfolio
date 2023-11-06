@@ -20,31 +20,34 @@
 }
 
 #home {
-    height: calc(100vh - 5rem);
-    width: 100vh;
-    max-width: 75rem;
-    margin: 0 auto;
+    height: calc(100vh - 6rem);
+    width: 100%;
     overflow: hidden;
     position: relative;
-}
 
-.bg {
-    position: absolute;
-    right: 0;
-    z-index: -1;
-    height: 30rem;
+    .image {
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/computer.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        margin-top: 1rem;
+
+    }
 }
 
 .home-content {
-    height: 100vh;
-    width: 100vh;
-    padding: 2rem;
+    height: 80%;
+    width: 100%;
+    padding: 1rem;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
+    position: absolute;
 }
+
+
 
 .hello {
     font-size: 1.75rem;
@@ -52,7 +55,7 @@
 }
 
 .intro-name {
-    color: #E3D5CA;
+    color: white;
 }
 
 .intro-p {
@@ -64,3 +67,4 @@
 .developer {
     color: #D6CCC2;
 }
+
