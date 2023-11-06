@@ -7,7 +7,7 @@ const home = () => {
   return (
     <section id="home">
       <div className="home-content image">
-        <span className="hello">Hello, </span>
+        <span className="hello"><i>Hello,</i></span>
         <span className="intro-text">
           I'm <span className="intro-name">Kia,</span>
           <br />
