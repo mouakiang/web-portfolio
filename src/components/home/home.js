@@ -9,12 +9,13 @@ const home = () => {
       <div className="home-content">
         <span className="hello">Hello, </span>
         <span className="intro-text">
-          I'm <span className="intro-name">Kia</span>
-          <br />Web Developer
+          I'm <span className="intro-name">Kia,</span>
+          <br />
+         <span className="developer">Web Developer</span> 
         </span>
         <p className="intro-p">
-          I am a Web Developer with experience in building Full-Stack Web
-          Applications focusing on JavaScript and React.js.
+          I am a <b>Web Developer</b> with experience in building Full-Stack Web
+          Applications focusing on <i>JavaScript </i>and <i>React.js.</i>
         </p>
         <a className="btn btn-success" href={resume} download="resume.pdf">
           Resume

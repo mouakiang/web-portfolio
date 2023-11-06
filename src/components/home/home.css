@@ -8,10 +8,11 @@
     border-radius: 12px;
     height: 2rem;
     width: 6rem;
+    margin-top: .5rem;
 
     &.btn-success {
         color: #EDEDE9;
-        font-size: 1.5rem;
+        font-size: 20px;
         display: flex;
         justify-content: center;
     }
@@ -48,15 +49,18 @@
 .hello {
     font-size: 1.75rem;
     font-weight: 100;
-    color: darkgray;
 }
 
 .intro-name {
-    color: #D6CCC2;
+    color: #E3D5CA;
 }
 
 .intro-p {
     font-size: medium;
     font-weight: 100;
+    margin-top: .25rem;
 }
 
+.developer {
+    color: #D6CCC2;
+}
