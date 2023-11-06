@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import bg from "../../assets/coding-head.png";
-import resume from "../../assets/resume.png";
+import resume from "../../assets/resume.pdf";
 
 const home = () => {
   return (
@@ -16,7 +16,7 @@ const home = () => {
           I am a Web Developer with experience in building Full-Stack Web
           Applications focusing on JavaScript and React.js.
         </p>
-        <a className="btn btn-success" href={resume}>
+        <a className="btn btn-success" href={resume} download="resume.pdf">
           Resume
         </a>
       </div>
