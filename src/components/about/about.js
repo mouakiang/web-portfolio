@@ -8,7 +8,7 @@ import profile from '../../assets/head-image.png'
 const about = () => {
   return (
     <section id="about">
-      <span className="about-title">What I Do</span>
+      <span className="about-title">My Background</span>
       <img src={profile} alt="head profile" className="head-image"/>
       <span className="about-info">
         I am a passionate Full-Stack Software Engineer, skilled in JavaScript,
