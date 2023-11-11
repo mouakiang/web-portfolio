@@ -8,7 +8,6 @@ import profile from '../../assets/head-image.png'
 const about = () => {
   return (
     <section id="about">
-      <span className="about-title">My Background</span>
       <img src={profile} alt="head profile" className="head-image"/>
       <span className="about-info">
         I am a passionate Full-Stack Software Engineer, skilled in JavaScript,
@@ -19,25 +18,13 @@ const about = () => {
         <div className="about-single-bar">
             <img src={fsimg} alt="full-stack" className="about-bar-img"/>
             <div className="about-bar-text">
-                <h2>Full-Stack Development</h2>
-                <p>Both Front-End and Back-End Development with additional skills such as:
+                <h2>TECH-STACK</h2>
+                <p>FRONT-END: HTML || CSS || JAVASCRIPT || REACT.JS || JQUERY || BOOTSTRAP
                     <br/>
-                    MOCHA || CHAI || KNEX || GIT || GITHUB || ADOBE PHOTOSHOP || ADOBE LIGHTROOM
+                    BACK-END: NODE.JS || EXPRESS || RESTFUL APIS || POSTGRESQL
+                    <br/>
+                    ETC: MOCHA || CHAI || KNEX || GIT || GITHUB || ADOBE PHOTOSHOP || ADOBE LIGHTROOM
                 </p>
-            </div>
-        </div>
-        <div className="about-single-bar">
-            <img src={feimg} alt="front-end" className="about-bar-img"/>
-            <div className="about-bar-text">
-                <h2>Front-End Development</h2>
-                <p><b>TECH STACK:</b> HTML || CSS || JAVASCRIPT || REACT.JS || JQUERY || BOOTSTRAP</p>
-            </div>
-        </div>
-        <div className="about-single-bar">
-            <img src={beimg} alt="back-end" className="about-bar-img"/>
-            <div className="about-bar-text">
-                <h2>Back-End Development</h2>
-                <p><b>TECH STACK:</b>  NODE.JS || EXPRESS || RESTFUL APIS || POSTGRESQL</p>
             </div>
         </div>
       </div>

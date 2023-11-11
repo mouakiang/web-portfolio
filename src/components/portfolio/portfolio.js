@@ -17,12 +17,28 @@ const portfolio = () => {
         to deliver seamless digital experiences.
       </span>
       <div className="portfolio-images">
-        <img
-          src={restres}
-          alt="restaurant reservation"
-          className="portfolio-img-one"
-        />
-        <img src={movies} alt="we love movies" className="portfolio-img-two" />
+        <a
+          href="https://restaurant-reservation-front-end-njh9.onrender.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={restres}
+            alt="restaurant reservation"
+            className="portfolio-img-one"
+          />
+        </a>
+        <a
+          href="https://we-love-movies-frontend-hegh.onrender.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={movies}
+            alt="we love movies"
+            className="portfolio-img-two"
+          />
+        </a>
       </div>
     </section>
   );

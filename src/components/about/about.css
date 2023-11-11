@@ -8,16 +8,6 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    background-color: #ece0d3;
-    border: dashed;
-}
-
-.about-title {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    text-decoration:underline;
-    color: #c0a798;
 }
 
 .about-info {
@@ -35,7 +25,7 @@
     width: 80%;
     max-width: 90%;
     text-align: left;
-    color: #c0a798;
+    color: #c9b2a4;
 }
 
 .about-single-bar {
@@ -60,6 +50,7 @@
 }
 
 .head-image {
-    margin: 1rem auto;
-    border-radius: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 50rem;
+    height: 320px;
 }
