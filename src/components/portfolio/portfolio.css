@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 1rem;
+    padding-bottom: 5rem;
     margin: rem;
 }
 
@@ -28,18 +28,31 @@
    display: flex;
    align-items: center;
    justify-content: center;
-
 }
 
 .portfolio-img-one {
     object-fit: cover;
     width: 60%;
-    margin-top: 1rem;
+    margin: 5rem;
+    border-radius: 50%;  
+    width: 200px;       
+    height: 200px; 
 }
 
 .portfolio-img-two {
     object-fit: cover;
     width: 56%;
-    margin-top: 1rem;
+    margin: 5rem;
+    border-radius: 50%;  
+    width: 200px;       
+    height: 200px;  
 }
 
+.portfolio-img-three {
+    object-fit: cover;
+    width: 56%;
+    margin: 5rem;
+    border-radius: 50%;  
+    width: 200px;       
+    height: 200px;  
+}

@@ -1,3 +1,6 @@
+#contact {
+    margin-top: 3rem;
+}
 .contact-title {
     font-size: 3rem;
     display: flex;
@@ -23,7 +26,7 @@
 
 .name, .email, .msg {
     font-size: medium;
-    width: 65%;
+    width: 50%;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
     color: #D6CCC2;
@@ -35,5 +38,7 @@
 .submitBtn {
     background-color: #E3D5CA;
     padding: .5rem 1.5rem;
+    margin-bottom: 3rem;
 
 }
+

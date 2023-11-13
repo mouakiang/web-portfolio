@@ -1,7 +1,5 @@
 import React from "react";
 import "./about.css";
-import feimg from "../../assets/front-end development.png"
-import beimg from "../../assets/back-end development.png";
 import fsimg from "../../assets/full-stack development.png";
 import profile from '../../assets/head-image.png'
 

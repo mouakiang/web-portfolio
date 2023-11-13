@@ -1,7 +1,6 @@
 import React from "react";
 import "./home.css";
 import resume from "../../assets/resume.pdf";
-import bg from "../../assets/computer.png";
 
 const home = () => {
   return (
