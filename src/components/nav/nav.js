@@ -10,7 +10,7 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
-const nav = () => {
+const Nav = () => {
   return (
     <nav className="navbar">
       <img src={logo} alt="logo" className="logo" />
@@ -32,4 +32,4 @@ const nav = () => {
   );
 };
 
-export default nav;
+export default Nav;

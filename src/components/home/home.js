@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import resume from "../../assets/resume.pdf";
 
-const home = () => {
+const Home = () => {
   return (
     <section id="home">
       <div className="home-content image">
@@ -24,4 +24,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;

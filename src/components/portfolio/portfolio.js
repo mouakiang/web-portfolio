@@ -4,7 +4,7 @@ import restres from "../../assets/restaurant-reservation.png";
 import movies from "../../assets/we-love-movies.png";
 import game from "../../assets/game-demo.png";
 
-const portfolio = () => {
+const Portfolio = () => {
   return (
     <section id="portfolio">
       <h1 className="myportfolio">Projects</h1>
@@ -49,4 +49,4 @@ const portfolio = () => {
   );
 };
 
-export default portfolio;
+export default Portfolio;

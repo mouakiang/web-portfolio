@@ -3,7 +3,7 @@ import "./about.css";
 import fsimg from "../../assets/full-stack development.png";
 import profile from '../../assets/head-image.png'
 
-const about = () => {
+const About = () => {
   return (
     <section id="about">
       <img src={profile} alt="head profile" className="head-image"/>
@@ -30,4 +30,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

@@ -30,10 +30,12 @@
     width: 50%;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
-    color: #D6CCC2;
+    color: #b29f8b;
     border: solid;
     border-radius: 0.5rem;
     background: #E3D5CA;
+    
+    
 }
 
 .submitBtn {
