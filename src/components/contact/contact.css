@@ -20,3 +20,20 @@
     align-items: center;
     width: 100%;
 }
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 65%;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #D6CCC2;
+    border: solid;
+    border-radius: 0.5rem;
+    background: #E3D5CA;
+}
+
+.submitBtn {
+    background-color: #E3D5CA;
+    padding: .5rem 1.5rem;
+
+}
