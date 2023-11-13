@@ -16,14 +16,6 @@
     font-size: 3rem;
 }
 
-.portfolio-info {
-    font-size: 1rem;
-    font-family: Cinzel;
-    font-weight: bold;
-    width: 80%;
-    max-width: 90%;
-}
-
 .portfolio-images {
    display: flex;
    align-items: center;
@@ -33,7 +25,7 @@
 .portfolio-img-one {
     object-fit: cover;
     width: 60%;
-    margin: 5rem;
+    margin: 3rem;
     border-radius: 50%;  
     width: 200px;       
     height: 200px; 
@@ -42,7 +34,7 @@
 .portfolio-img-two {
     object-fit: cover;
     width: 56%;
-    margin: 5rem;
+    margin: 3rem;
     border-radius: 50%;  
     width: 200px;       
     height: 200px;  
@@ -51,7 +43,7 @@
 .portfolio-img-three {
     object-fit: cover;
     width: 56%;
-    margin: 5rem;
+    margin: 1rem;
     border-radius: 50%;  
     width: 200px;       
     height: 200px;  

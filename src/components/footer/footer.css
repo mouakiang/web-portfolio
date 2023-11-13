@@ -1,5 +1,10 @@
 #footer {
     background-color: #E3D5CA;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
