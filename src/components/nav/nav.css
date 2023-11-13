@@ -25,3 +25,29 @@
         color: white;
     }
 }
+
+@media screen and (max-width: 791px) {
+    .desktop-menu {
+        display: flex;
+        justify-content: space-around;
+        max-width: 90%;
+        padding-right: 2rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%; 
+    }
+
+    .navbar .nav-link {
+        flex: 1; 
+        max-width: 1%;
+        text-align: center; 
+    }
+
+}
