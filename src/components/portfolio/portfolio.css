@@ -1,50 +1,72 @@
 #portfolio {
-    margin: 0 auto;
-    min-height: 30rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 5rem;
-    margin: rem;
+  margin: 0 auto;
+  min-height: 30rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 5rem;
+  margin: rem;
 }
 
 .myportfolio {
-    margin: 1rem 0;
-    font-size: 3rem;
+  margin: 1rem 0;
+  font-size: 3rem;
 }
 
 .portfolio-images {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio-img-one {
-    object-fit: cover;
-    width: 60%;
-    margin: 3rem;
-    border-radius: 50%;  
-    width: 200px;       
-    height: 200px; 
+  object-fit: cover;
+  width: 60%;
+  margin: 3rem;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 
 .portfolio-img-two {
-    object-fit: cover;
-    width: 56%;
-    margin: 3rem;
-    border-radius: 50%;  
-    width: 200px;       
-    height: 200px;  
+  object-fit: cover;
+  width: 56%;
+  margin: 3rem;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 
 .portfolio-img-three {
+  object-fit: cover;
+  width: 56%;
+  margin: 1rem;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 590px) {
+  .myportfolio {
+    font-size: 2rem;
+  }
+
+  .portfolio-images,
+  .portfolio-single {
+    flex-wrap: wrap;
+  }
+
+  .portfolio-img-one,
+  .portfolio-img-two,
+  .portfolio-img-three {
     object-fit: cover;
-    width: 56%;
+    width: 50%;
     margin: 1rem;
-    border-radius: 50%;  
-    width: 200px;       
-    height: 200px;  
+    border-radius: 50%; 
+  }
+
 }
