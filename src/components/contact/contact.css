@@ -42,3 +42,28 @@
 
 }
 
+@media screen and (max-width: 560px) {
+    .contact-title {
+        font-size: 2rem; 
+    }
+
+    .contact-info {
+        padding: 0.5rem; 
+        font-size: small; 
+    }
+
+    .contact-form {
+        margin: 0.5rem; 
+    }
+
+    .name, .email, .msg {
+        font-size: small; 
+        width: 90%; 
+    }
+
+    .submitBtn {
+        padding: 0.5rem 1rem; 
+        font-size: small; 
+    }
+}
+
