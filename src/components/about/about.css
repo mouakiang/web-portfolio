@@ -55,3 +55,19 @@
     border-radius: 50rem;
     height: 320px;
 }
+
+@media screen and (max-width: 781px) {
+    .head-image {
+        height: 250px; 
+        width: 200px;
+    }
+
+    .about-info, .about-bar-text p {
+        font-size: 0.8rem;
+    }
+
+    .about-bar-img {
+        height: 10%; 
+        width: 10%;
+    }
+}
