@@ -1,0 +1,22 @@
+.contact-title {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
