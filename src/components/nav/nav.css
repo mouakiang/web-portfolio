@@ -26,6 +26,7 @@
     }
 }
 
+
 @media screen and (max-width: 791px) {
     .desktop-menu {
         display: flex;

@@ -22,8 +22,7 @@
     color: rgb(250, 248, 248);
 }
 
-.a svg{
-    margin: 1rem;
-    display: flex;
-    justify-content: space-around;
+#footer .svg-inline--fa {
+    padding: 2rem;
+    height: 25px;
 }
