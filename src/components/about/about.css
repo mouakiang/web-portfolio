@@ -8,7 +8,8 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
 }
 
 .about-info {
@@ -54,6 +55,13 @@
     margin-bottom: 2rem;
     border-radius: 50rem;
     height: 320px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    display: block;
+}
+
+.head-image:hover {
+    transform: rotateY(360deg);
 }
 
 @media screen and (max-width: 781px) {
@@ -69,5 +77,9 @@
     .about-bar-img {
         height: 10%; 
         width: 10%;
+    }
+
+    .about-bar-text {
+        font-size: .75rem;
     }
 }
