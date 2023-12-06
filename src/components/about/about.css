@@ -58,10 +58,13 @@
     transition: transform 1s;
     transform-style: preserve-3d;
     display: block;
+    
 }
 
 .head-image:hover {
     transform: rotateY(360deg);
+    cursor: pointer;
+    opacity: 70%;
 }
 
 @media screen and (max-width: 781px) {

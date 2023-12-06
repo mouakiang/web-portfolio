@@ -42,6 +42,12 @@
     background-color: #E3D5CA;
     padding: .5rem 1.5rem;
     margin-bottom: 3rem;
+    border: #a29389 solid;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 70%;
+    }
 
 }
 

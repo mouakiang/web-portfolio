@@ -68,6 +68,8 @@
 .portfolio-img-two:hover,
 .portfolio-img-three:hover {
   transform: rotate(360deg);
+  cursor: pointer;
+  opacity: 50%;
 }
 
 @media screen and (max-width: 590px) {
