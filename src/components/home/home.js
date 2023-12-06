@@ -1,11 +1,14 @@
 import React from "react";
 import "./home.css";
 import resume from "../../assets/resume.pdf";
+import computer from "../../assets/computer.png";
 
 const Home = () => {
   return (
+   
     <section id="home">
-      <div className="home-content image">
+         <img src={computer} alt="computer" className="home-img"/>
+      <div className="home-content-bio">
         <span className="hello"><i>Hello,</i></span>
         <span className="intro-text">
           I'm <span className="intro-name">Kia,</span>
