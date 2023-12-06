@@ -64,7 +64,7 @@
 .head-image:hover {
     transform: rotateY(360deg);
     cursor: pointer;
-    opacity: 70%;
+    opacity: 20%;
 }
 
 @media screen and (max-width: 781px) {
