@@ -22,7 +22,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 70%;
+    margin-left: 13rem;
 }
 
 .name, .email, .msg {

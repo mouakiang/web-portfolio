@@ -1,8 +1,8 @@
 import React from "react";
 import "./portfolio.css";
 import restres from "../../assets/restaurant-reservation.png";
-import movies from "../../assets/we-love-movies.png";
-import game from "../../assets/game-demo.png";
+import clientsite from "../../assets/clientsite.jpg";
+import kjane from "../../assets/kjanemouaphotography.com.jpg";
 
 const Portfolio = () => {
   return (
@@ -10,37 +10,37 @@ const Portfolio = () => {
       <h1 className="myportfolio">Projects</h1>
       <div className="portfolio-images">
         <a
-          href="https://restaurant-reservation-front-end-njh9.onrender.com"
+          href="https://client-website.onrender.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src={restres}
-            alt="restaurant reservation"
+            src={clientsite}
+            alt="client website"
             className="portfolio-img-one"
           />
         </a>
         <a
-          href="https://we-love-movies-frontend-hegh.onrender.com"
+          href="https://kjanemouaphotography.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src={movies}
-            alt="we love movies"
+            src={kjane}
+            alt="kjanemouaphotography"
             className="portfolio-img-two"
           />
         </a>
       </div>
       <div className="portfolio-single">
       <a
-          href="https://mouakiang.github.io/game-demo/"
+          href="https://restaurant-reservation-front-end-njh9.onrender.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src={game}
-            alt="game demo"
+            src={restres}
+            alt="Restaurant Reservation"
             className="portfolio-img-three"
           />
         </a>
